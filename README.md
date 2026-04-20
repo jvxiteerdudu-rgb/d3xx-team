@@ -43,7 +43,7 @@ Antes de começar, você precisa ter instalado:
 
 Instale o Cloudflared (Túnel):
 --
-## Bash
+    ```Bash
 npm install -g cloudflared
 
  Executar o script:
