@@ -45,9 +45,17 @@ Instale o Cloudflared (Túnel):
 --
     npm install -g cloudflared
 
- Executar o script:
+ clonar repositório:
 -
-    python nome_do_arquivo.py
+    git clone https://github.com/jvxiteerdudu-rgb/Fallen.git
+
+   abrir repositório:
+   -
+    cd nome-da-pasta
+
+  executar o script:
+  -
+    python fallen.py
 
 📱 Termux
 --
@@ -62,9 +70,18 @@ Instale o Cloudflared:
 -
     npm install -g cloudflared
 
-Executar o script:
+clonar repositório:
 -
-    python nome_do_arquivo.py
+    git clone https://github.com/jvxiteerdudu-rgb/Fallen.git
+
+   abrir repositório:
+   -
+    cd nome-da-pasta
+
+  executar o script:
+  -
+    python fallen.py
+    
 
 # 🖥️ Como Monitorar
 Após rodar o roteiro, ele vai gerar um link como: https://xxxx-xxxx-xxxx.trycloudflare.com.
