@@ -40,35 +40,34 @@ Antes de começar, você precisa ter instalado:
 2. Abra o CMD na pasta do script e instale as bibliotecas:
    ```bash
    pip install flask requests colorama
+
 Instale o Cloudflared (Túnel):
-
-Bash
+--
+## Bash
 npm install -g cloudflared
-Executar o script:
 
-Bash
+## Bash
 python nome_do_arquivo.py
 
 📱 Termux
 --
-Atualizar osJ:
 
 ## Bash
  pkg update && pkg upgrade -y
 Instale as partes:
-
+-
 ## Bash
 pkg install python nodejs -y
 pip install flask requests colorama
 Instale o Cloudflared:
-
+-
 ## Bash
 npm install -g cloudflared
 Executar o script:
-
+-
 ## Bash
 python nome_do_arquivo.py
-
+-
 # 🖥️ Como Monitorar
 Após rodar o roteiro, ele vai gerar um link como: https://xxxx-xxxx-xxxx.trycloudflare.com.
 
