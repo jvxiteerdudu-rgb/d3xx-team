@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Termux-red?style=for-the-badge">
 </p>
 
-O **Fallen Angels Intelligence** é uma ferramenta avançada de captura de metadados e rastreio de conexões. Ao ser executado, o script gera um link de "isca" que, ao ser acessado pelo alvo, redireciona para uma página de erro **404 Not Found** realista (Apache Style), enquanto captura silenciosamente todas as informações técnicas do dispositivo.
+O **Fallen Angels Intelligence** é uma ferramenta de captura de metadados e rastreio de conexões. Ao ser executado, o script gera um link de "isca" que, ao ser acessado pelo alvo, redireciona para uma página de erro **404 Not Found** realista (Apache Style), enquanto captura silenciosamente todas as informações técnicas do dispositivo.
 
 ---
 
@@ -60,7 +60,7 @@ Instale o Cloudflared (Túnel):
 -----------------------------
 ## 📥 Instalação e Uso
 
-###📱 Termux
+📱 Termux
 --
     pkg update && pkg upgrade -y
     
