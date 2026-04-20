@@ -57,6 +57,8 @@ Instale o Cloudflared (Túnel):
   -
     python fallen.py
 
+
+
 📱 Termux
 --
     pkg update && pkg upgrade -y
