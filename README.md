@@ -12,13 +12,13 @@ O **Fallen Angels Intelligence** é uma ferramenta avançada de captura de metad
 ## O que ele faz?
 
 - 🛡️ **Filtro de IP Único:** Não polui seus logs. Se a mesma pessoa entrar 10 vezes, ela só aparece uma vez.
-- 
+  
 - 📱 **Detecção de Dispositivo:** Identifica se é iPhone, Android (com modelo), Windows ou Mac.
-- 
+  
 - 🗺️ **Geolocalização:** Captura Cidade, Estado, País e Coordenadas exatas.
-- 
+  
 - 🌐 **ISP & Rede:** Mostra o provedor de internet e se o alvo está usando VPN/Proxy.
-- 
+  
 - 📁 **Logs Automáticos:** Cria um arquivo `fallen_db.txt` com todas as capturas detalhadas.
 
 
@@ -48,25 +48,28 @@ Executar o script:
 
 Bash
 python nome_do_arquivo.py
+
 📱 Termux
+--
 Atualizar osJ:
 
-Bash
-pkg update && pkg upgrade -y
+## Bash
+ pkg update && pkg upgrade -y
 Instale as partes:
 
-Bash
+## Bash
 pkg install python nodejs -y
 pip install flask requests colorama
 Instale o Cloudflared:
 
-Bash
+## Bash
 npm install -g cloudflared
 Executar o script:
 
-Bash
+## Bash
 python nome_do_arquivo.py
-🖥️ Como Monitorar
+
+# 🖥️ Como Monitorar
 Após rodar o roteiro, ele vai gerar um link como: https://xxxx-xxxx-xxxx.trycloudflare.com.
 
 Link para o Alvo: Envie uma URL principal. Ele verá um erro 404.
