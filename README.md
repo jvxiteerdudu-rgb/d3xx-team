@@ -9,14 +9,18 @@ O **Fallen Angels Intelligence** é uma ferramenta avançada de captura de metad
 
 ---
 
-## 🚀 O que ele faz?
+## O que ele faz?
 
 - 🛡️ **Filtro de IP Único:** Não polui seus logs. Se a mesma pessoa entrar 10 vezes, ela só aparece uma vez.
+- 
 - 📱 **Detecção de Dispositivo:** Identifica se é iPhone, Android (com modelo), Windows ou Mac.
+- 
 - 🗺️ **Geolocalização:** Captura Cidade, Estado, País e Coordenadas exatas.
+- 
 - 🌐 **ISP & Rede:** Mostra o provedor de internet e se o alvo está usando VPN/Proxy.
+- 
 - 📁 **Logs Automáticos:** Cria um arquivo `fallen_db.txt` com todas as capturas detalhadas.
-- 🎨 **Painel VIP:** Dashboard web moderno com cores da bandeira russa para monitoramento em tempo real.
+
 
 ---
 
