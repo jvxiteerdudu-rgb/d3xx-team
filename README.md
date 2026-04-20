@@ -57,7 +57,8 @@ Instale o Cloudflared (Túnel):
   -
     python fallen.py
 
-
+Agora a instalação pelo celular 
+no termux
 
 📱 Termux
 --
