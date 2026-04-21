@@ -21,7 +21,7 @@ Instale o Cloudflared (Túnel):
 
  clonar repositório:
 -
-    git clone https://github.com/jvxiteerdudu-rgb/Fallen.git
+    git clone https://github.com/jvxiteerdudu-rgb/d3xx-team/edit/main/README.md
 
    abrir repositório:
    -
@@ -29,7 +29,7 @@ Instale o Cloudflared (Túnel):
 
   executar o script:
   -
-    python nome-scripr
+    python nome-script
 
 -----------------------------
 
