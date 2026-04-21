@@ -5,33 +5,7 @@
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Termux-red?style=for-the-badge">
 </p>
 
-O **Fallen Angels Metadados** é uma ferramenta de captura de metadados e rastreio de conexões. Ao ser executado, o script gera um link de "isca" que, ao ser acessado pelo alvo, redireciona para uma página de erro **404 Not Found**, enquanto captura silenciosamente todas as informações técnicas do dispositivo.
 
----
-
-## O que ele faz?
-
-- 🛡️ **Filtro de IP Único:** Não polui seus logs. Se a mesma pessoa entrar 10 vezes, ela só aparece uma vez.
-  
-- 📱 **Detecção de Dispositivo:** Identifica se é iPhone, Android (com modelo), Windows ou Mac.
-  
-- 🗺️ **Geolocalização:** Captura Cidade, Estado, País e Coordenadas exatas.
-  
-- 🌐 **ISP & Rede:** Mostra o provedor de internet e se o alvo está usando VPN/Proxy.
-  
-- 📁 **Logs Automáticos:** Cria um arquivo `fallen_db.txt` com todas as capturas detalhadas.
-
-
----
-
-## 🛠️ Requisitos
-
-Antes de começar, você precisa ter instalado:
-1. **Python 3.x**
-2. **Node.js** (Necessário para o túnel Cloudflare)
-3. **Pip** (Gerenciador de pacotes do Python)
-
----
 
 ## 📥 Instalação e Uso
 
@@ -55,36 +29,9 @@ Instale o Cloudflared (Túnel):
 
   executar o script:
   -
-    python fallen.py
+    python nome-scripr
 
 -----------------------------
-## 📥 Instalação e Uso
-
-📱 Termux
---
-    pkg update && pkg upgrade -y
-    
-Instale as partes:
--
-    pkg install python nodejs -y
-    pip install flask requests colorama
-
-Instale o Cloudflared:
--
-    npm install -g cloudflared
-
-clonar repositório:
--
-    git clone https://github.com/jvxiteerdudu-rgb/Fallen.git
-
-   abrir repositório:
-   -
-    cd nome-da-pasta
-
-  executar o script:
-  -
-    python fallen.py
-    
 
 # 🖥️ Como Monitorar
 Após rodar o roteiro, ele vai gerar um link como: https://xxxx-xxxx-xxxx.trycloudflare.com.
